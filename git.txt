@@ -1,0 +1,46 @@
+git config --global user.name '' 
+git config --global user.email ''
+ls +++
+ls -a (show hidden files)
+pwd ++
+cd ++
+clear  // ctrl +l(clear everything)
+git init ++
+git add . ++
+git commit -m "your message" ++
+git log (show me all git versions) ++
+git status (show changes) ++
+git diff(show all file's changes) +++
+git diff filename.extention(show one file's changes)
+git diff --staged(depo and staged difference)
+git rm filename.ext (delete and add file staging)
+git rm -r foldername/ (delete and add folder)
+git mv oldname.ext newname.ext
+git mv filename.ext foldername/
+
+git checkout -- filename(rechange or take deleted file)
+
+git reset HEAD filename (change staged to working) ++
+git checkout -- filename ++
+
+git checkout hashcode -- .
+
+
+
+
+git remote add example http://githubrepo/yourfile.git++
+git remote (check working or not)++
+git push -u example master++
+
+
+git branch
+git branch --all
+git branch branchname (create)
+
+git branch
+git checkout branchname (go next branch)
+
+
+git diff master otherbranch(show the difference)
+git merge othernch( mix)
+git push -u example master
